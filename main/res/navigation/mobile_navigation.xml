@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu">
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.codedev.droidcoffevfinal.ui.home.HomeFragment"
+        android:label="Menú de Postres"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.codedev.droidcoffevfinal.ui.gallery.GalleryFragment"
+        android:label="Mi Orden"
+        tools:layout="@layout/fragment_gallery" />
+
+</navigation>
